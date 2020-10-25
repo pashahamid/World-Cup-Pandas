@@ -65,7 +65,7 @@ else:
         print(f'you entered {val}')
         if val == '-1':
             break
-'''
+
 #prompt the user to enter a value between 1 and 10
 
 #compare the input with your secret number
@@ -102,8 +102,30 @@ while True:
 
     #Exercise: #use a while loop to reverse a string
     
-    my_string = 'welcome to python programming'
+my_string = 'welcome to python programming'
 
     #hint: strings are immutable, so you have to build a new string
 
-    new_string = 'gni...'
+reversed_string = ''
+pos = len(my_string) -1
+
+while pos >= 0:
+    reversed_string += my_string[pos]
+    pos -= 1
+print(reversed_string)
+
+#For Loop
+
+my_other_string = 'hello world'
+new_str =''
+for letter in my_other_string:
+        new_str = letter + new_str
+
+print(new_str)
+
+'''
+#another way 
+my_other_string ='hello world'
+print(my_other_string[::-1])
+
+
