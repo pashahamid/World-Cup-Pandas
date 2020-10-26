@@ -12,4 +12,4 @@ elif
     hourly_pay == 65,
 elif 
     worker_type = contract:
-    hourly_pay == 120-(120/4)
+    hourly_pay == 120-(120/4)  
